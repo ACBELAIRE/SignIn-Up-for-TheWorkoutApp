@@ -17,7 +17,7 @@ main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: black;
+  background-color:rgb(125, 166, 21);
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ form.sign-up-form{
 }
 
 .toggle {
-  color: #151111;
+  color: #9a745e;;
   text-decoration: none;
   font-size: 0.75rem;
   font-weight: 500;
@@ -112,7 +112,7 @@ form.sign-up-form{
 }
 
 .toggle:hover {
-  color: red;
+  color: rgb(125, 166, 21);
 }
 
 /*Sign In & Sign Up form*/
@@ -194,7 +194,7 @@ input[type="email"]:valid ~ label {
   display: inline-block;
   width: 100%;
   height: 43px;
-  background-color: #151111;
+  background-color:  #9a745e;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -205,7 +205,7 @@ input[type="email"]:valid ~ label {
 }
 
 .sign-btn:hover {
-  background-color: red;
+  background-color: rgb(125, 166, 21);
 }
 
 .text {
@@ -219,7 +219,7 @@ input[type="email"]:valid ~ label {
 }
 
 .text a:hover {
-  color: red;
+  color: rgb(125, 166, 21);
 }
 
 /* transition between the two forms and hide each form*/
@@ -248,7 +248,7 @@ main.sign-up-mode .carousel {
   width: 55%;
   left: 45%;
   top: 0;
-  background-color: #bababa;
+  background-color: #9a745e;
   border-radius: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -281,13 +281,14 @@ main.sign-up-mode .carousel {
 
 .img-2 {
   max-width: 450px;
+  margin-top: 125px;
   margin-left: auto;
   margin-right: auto;
   transform: scale(0.4, 0.5);
 }
 
 .img-3 {
-  max-width: 450px;
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
   transform: scale(0.3) rotate(-20deg);
@@ -335,7 +336,7 @@ main.sign-up-mode .carousel {
   display: block;
   width: 0.5rem;
   height: 0.5rem;
-  background-color: red;
+  background-color: rgb(125, 166, 21);
   margin: 0 0.25rem;
   border-radius: 50%;
   cursor: pointer;
